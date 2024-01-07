@@ -16,19 +16,32 @@ ul, li {
     
 }
 
+.parrafo-objetivos {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding-inline: 1rem;
+
+}
+
+.parrafo-contacto{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    margin-inline: 1rem;
+
+
+}
+
 
 
     
 
-
-
-
-
-.btn-negro {
-    background-color: black;
-    border: black solid .125rem;
-    color: whitesmoke;
-}
 
 
 
@@ -54,6 +67,12 @@ ul, li {
     font-size: 1.5rem;
 
 }
+
+.container-footer {
+    display: flex;
+
+}
+
 
 
 .container-galeria {

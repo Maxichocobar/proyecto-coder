@@ -1,0 +1,141 @@
+$ff-IbmPlexSans:"IBM Plex Sans", sans-serif; 
+$c-white:white;
+$ff-Merriweather:'Merriweather', serif;
+$c-darkcharcoal: 333333;
+$c-amarillo: #ff0;
+$c-darksaturatedorange:#ff8000;
+$c-rojo: red;
+$c-dark: #232323;
+$c-grisclaro:#C9CCD3;
+$c-negroazulado:rgb(2,0,36);
+$c-negroclaro:rgba(2,0,36,1);
+$c-negroclaro1: rgba(3,1,43,1);  
+$c-negroazuladosaturado:rgba(9,9,121,1);
+$c-cyan:rgba(0,212,255,1);
+$c-grismuyclaro:rgba(255,255,255,0.50);
+$c-negroclaro2:rgba(0,0,0,0.50);
+$c-verdeaguaoscuro:#49FF18;
+$c-grisclaro1:#e0dfdc;
+$c-grisoscuro:#556677;
+$c-rojofuerte:#bc2e1e; 
+$c-mostaza:#edde9c;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans', sans-serif;
+    
+
+}
+
+header {
+    background: $c-grisclaro;
+    background-image: linear-gradient(-180deg, $c-grismuyclaro 0%, $c-negroclaro2 100%);
+    background-blend-mode: lighten; 
+}
+
+
+footer {
+
+    background: $c-negroazulado;
+    background: radial-gradient(circle, $c-negroclaro 0%, $c-negroclaro1 0%, $c-negroazuladosaturado 47%, $c-cyan 91%); 
+}
+
+
+
+ul, li {
+    list-style-type: none;
+    
+    
+}
+
+
+
+
+img {
+
+    max-width: 100%;
+}
+
+
+img:hover {
+    
+
+    -webkit-animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both }
+    
+    
+
+
+    .rotate-vert-center{-webkit-animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both}
+
+
+
+    @-webkit-keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}@keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}
+
+
+
+p:hover { 
+    
+    color: c-white;
+background: $c-dark;
+text-shadow: 0 0 5px $c-white, 0 0 10px $c-white, 0 0 15px $c-white, 0 0 20px $c-verdeaguaoscuro, 0 0 30px $c-verdeaguaoscuro, 0 0 40px $c-verdeaguaoscuro, 0 0 55px $c-verdeaguaoscuro, 0 0 75px $c-verdeaguaoscuro;
+color: c-white;
+background: $c-dark;
+transition-duration: 1s;
+}
+
+h2:hover {
+    transform: scale(1.25);
+    color: c-white;
+background: $c-darkcharcoal;
+text-shadow: 0 -1px 4px $c-white, 0 -2px 10px $c-amariilo, 0 -10px 20px $c-darksaturatedorange, 0 -18px 40px $c-rojo;
+color: c-white;
+background: $c-darkcharcoal;
+transition-duration: 1s;
+
+}
+
+
+
+h4:hover {
+
+    transform: scale(1.25);
+    color: $c-grisclaro1;
+    background: $c-grisoscuro;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 $c-white, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px $c-dark;
+    color: $c-grisclaro1;
+    background: $c-grisoscuro;
+    transition-duration: 1s;
+}
+
+h5:hover {
+transform:scale(1.25) ;
+    color: $c-rojofuerte;
+background: $c-mostaza;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+color: $c-rojofuerte;
+background: $c-mostaza;
+transition-duration: 1s;
+}
+
+    
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
